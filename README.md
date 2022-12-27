@@ -5,13 +5,13 @@ get info off app
 ## Installation
 
 ```sh
-npm install react-native-app-info
+npm i react-native-version-app
 ```
 
 ## Usage
 
 ```js
-import { appVersion,buildVersion } from 'react-native-app-info';
+import { appVersion,buildVersion } from 'react-native-version-app';
 
 // ...
 

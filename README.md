@@ -11,11 +11,12 @@ npm install react-native-app-info
 ## Usage
 
 ```js
-import { multiply } from 'react-native-app-info';
+import { appVersion,buildVersion } from 'react-native-app-info';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = buildVersion();
+const result = appVersion();
 ```
 
 ## Contributing

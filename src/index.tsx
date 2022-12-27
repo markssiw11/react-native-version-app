@@ -20,3 +20,11 @@ const AppInfo = NativeModules.AppInfo
 export function multiply(a: number, b: number): Promise<number> {
   return AppInfo.multiply(a, b);
 }
+
+export function appVersion(): string {
+  return AppInfo.getConstants().appVersion;
+}
+
+export function buildVersion(): string {
+  return AppInfo.getConstants().buildVersion;
+}
